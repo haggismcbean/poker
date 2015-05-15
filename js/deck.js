@@ -18,4 +18,6 @@ function Deck() {
 	}
 }
 
-var deck = new Deck();
+Deck.prototype.getCard = function() {
+	alert("Getting card");
+}

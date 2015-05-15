@@ -13,3 +13,7 @@ function Range(param) {
 Range.prototype.sortRange = function() {
 	alert("Sorting range");
 }
+
+Range.prototype.removeDeadCard = function(param) {
+	alert("Removing dead card");
+}
