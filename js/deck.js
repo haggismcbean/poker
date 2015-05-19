@@ -18,6 +18,12 @@ function Deck() {
 	}
 }
 
-Deck.prototype.getCard = function() {
-	alert("Getting card");
+Deck.prototype.getCard = function(param) {
+	for(var i=0; i < this.cards.length; i++){
+		if(this.cards[i].suit == param.suit){
+			if(this.cards[i].rank == param.rank){
+				return this.cards[i];
+			}
+		}
+	}
 }

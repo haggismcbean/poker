@@ -1,8 +1,8 @@
 //Psuedocode
 //init deck
-var deck = new Deck();
+// var deck = new Deck();
 //init range
-var range = new Range({ percent: 10 });
+// var range = new Range({ percent: 10 });
 //init flop
 //remove dead cards from range
 //calculate hand strengths
